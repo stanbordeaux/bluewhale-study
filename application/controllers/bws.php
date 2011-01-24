@@ -11,6 +11,7 @@ class Bws extends Controller {
 
 	
 	//This is the basic home page 
+    //Note need to check and edit the base template files
 	function index()
 	{
         $data['res'] = $this->news_model->get_side_topic();
