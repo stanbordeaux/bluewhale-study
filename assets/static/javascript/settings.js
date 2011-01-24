@@ -1,0 +1,1 @@
+$(document).ready(function(){var C=$("input[name=enabled]");var B=$("tr.offline_reason");function A(){if(C.is(":checked")){B.hide()}else{B.show()}}C.each(function(){A()});C.bind("click",A)});

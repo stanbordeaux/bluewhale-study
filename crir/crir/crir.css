@@ -1,0 +1,63 @@
+/* Checkboxes */
+label.checkbox_checked {
+	background: #fff url(bws_tick.png) no-repeat;	
+	margin: 10px 0;
+	padding-left: 25px;
+}
+label.checkbox_unchecked  {
+	background: #fff url(cross.png) no-repeat;	
+	margin: 10px 0;
+	padding-left: 25px;
+}
+
+/* Radio Buttons */
+label.radio_checked {
+	background: #fff url(bws_tick.png) no-repeat;	
+	margin: 10px 0;
+	padding-left: 25px;
+}
+label.radio_unchecked  {
+	background: #fff url(bws_bullet_white.png) no-repeat;	
+	margin: 10px 0;
+	padding-left: 25px;
+}
+
+/* Stans text area styling */
+textarea.styled {
+	width: 450px;
+	height: 120px;
+	border: 1px solid #203769;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+    font-size: 0.9em;
+	background: #fff url(comment.png);
+	background-position:top left;
+	background-repeat: no-repeat;
+    color: #203769;
+}
+/* Hover State */
+label:hover{
+	color: #575B60;
+}
+
+label.highlighted {
+	border: 1px solid #333;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* STOP EDITTING - DO NOT CHANGE OR REMOVE        */
+.crirHidden {
+	position: absolute;
+	left: -1000px;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#demotip { 
+    display:none; 
+    background:transparent url(/tools/img/tooltip/black_arrow.png); 
+    font-size:12px; 
+    height:70px; 
+    width:160px; 
+    padding:25px; 
+    color:#fff;     
+}

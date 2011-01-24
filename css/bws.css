@@ -1,0 +1,445 @@
+/* CSS Document */
+
+body  {
+	font: 1em, Helvetica,  Arial, sans-serif;
+	background: #1b2855;
+	background-image:url(../images/background_image.jpg);
+	background-repeat:repeat-x;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #66757c;
+}
+
+
+
+p {
+	font-size:.85em;
+	line-height: 1.4em;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	margin: 0px;
+
+}
+	
+h1 {
+	font-size:1.4em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: #058cbf;
+    margin: 0px 0px 5px 0px;
+	font-weight: normal;
+	padding: 0px 0px 5px 0px;
+		}
+
+h2 {
+	font-size:1em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin:0px;
+	padding: 0px 0px 10px 0px;
+		}
+
+
+ul
+{
+    
+	font: .85em;
+	list-style-type : none;
+	padding-left: 20px;
+	margin-top: 0;
+    margin-bottom: 2px;
+
+}
+
+
+		
+a:link { 
+	text-decoration: none; 
+	color: #3e96d2;
+	}
+a:visited { 
+	text-decoration: none; 
+	color: #3e96d2;
+	}
+a:hover, a:active { 
+	text-decoration: none; 
+	color: #d2923e;
+	}
+	
+
+.bws #containerhome { 
+	position: relative; /* adding position: relative allows you to position the two sidebars relative to this container */
+	width: 960px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background-image:url(../images/bws_logo_home.jpg);
+	background-repeat:no-repeat;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+
+
+.bws #containersection { 
+	position: relative; /* adding position: relative allows you to position the two sidebars relative to this container */
+	width: 960px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background-image:url(../images/bws_logo_section.jpg);
+	background-repeat:no-repeat;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+
+}
+ 
+.bws #header { 
+	 background-image:url(../images/banner_waves.gif); 
+	background-repeat:no-repeat;
+	background-position:right;
+	height: 73px;
+	padding: 0px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */	
+} 
+
+.bws #header_section { 
+	background-image:url(../images/banner_waves_section.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	height: 73px;
+	padding: 0px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */	
+} 
+
+.bws #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+
+
+/* top navigation styling */
+
+.bws #nav {
+	position:relative;
+	height: 30px;
+	margin-left: 319px;
+	background: #3297de;
+	background-repeat:no-repeat;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: .85em;
+	padding: 0px 0px 0px 0px;
+	z-index:8;
+}
+
+.bws #subnav {
+	position:relative;
+	height: 25px;
+	margin: 0px;
+	background-image:url(../images/subnav_bg.gif);
+		background-repeat:no-repeat;
+		font-family:Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	padding: 0px 0px 0px 327px;
+	z-index:1;
+	vertical-align:middle;
+
+}
+#homebanner {
+	position: absolute;
+	top: 190px;
+	width: 960px; /* Width of Menu Items */
+	padding: 0px 10px 0px 0px;
+	left: 10px;
+	z-index:0;
+}
+
+#sidebarnav {
+	position: absolute;
+	top: 191px;
+	width: 151px; /* Width of Menu Items */
+	margin-top: 10px;
+	padding: 0px 10px 10px 0px;
+	font-size: .85em;
+	left: 10px;
+	z-index:1;
+
+}
+
+.bws #3col_rule {
+	position:relative;
+	background-image:url(../images/3col_rule.gif);
+} 
+
+
+.bws #mainContent_home {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: .9em;
+	position:relative;
+	margin:  0px;
+	padding: 0px 650px 20px 20px;
+	background-image:url(../images/3col_rule.gif);
+} 
+
+.bws #mainContent_section {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: .9em;
+	position:relative;
+	margin:  0px;
+	padding: 20px 350px 20px 30px;
+	background-image:url(../images/2col_rule.gif);
+} 
+
+.bws #homecolumn_centre {
+	position: absolute;
+	top: 0px;
+	left: 340px;
+	width: 290px;
+	z-index:2;
+}
+
+
+.bws #homecolumn_right {
+	position: absolute;
+	top: 10px;
+	left: 655px;
+	width: 290px;
+	z-index:2;
+			font-size: .9em;
+
+}
+
+
+
+
+.bws #2colContent { 
+	margin: 0 40px 0 180px; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+	padding: 0 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	width
+	z-index:2;
+} 
+
+
+
+.bws #rightcolumn_list {
+	position: absolute;
+	top: 210px;
+	right: 30px;
+	width: 200px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	padding: 10px 0px 10px 0px; /* padding keeps the content of the div away from the edges */
+	margin: 0px;
+	background-color: #e6ebef;
+	list-style-image: url(../images/bullet.gif);
+	font-size: .8em;
+	line-height: 1.4em;
+	}
+
+.join_promo  {
+
+background-image:url(../images/promo_join.jpg);
+background-repeat:no-repeat;
+padding: 35px 15px 0px 15px;
+margin-top:5px;
+height: 100px;
+color:#FFFFFF;
+}
+
+.promo1  {
+background-image:url(../images/rightcol_item_topbg.gif);
+background-repeat:no-repeat;
+padding: 2px 10px 10px 0px;
+width: 295px;
+}
+
+.promo_endline  {
+background-image:url(../images/rightco_itembot_bg.gif);
+background-repeat:no-repeat;
+height: 1px;
+padding: 8px 0px 4px 0px;
+}
+
+
+
+/*text styling */
+
+
+.rightcol_ttl {
+color: #4297d2;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size: 1em;
+padding: 0px 0px 10px 17px;
+}
+
+
+.link_line {
+padding-top: 5px;
+}
+
+
+.subnav_items {
+	padding-top: 3px;
+	font-size: 1em;
+	}
+
+
+
+.rightcol_title1 {
+	font-size:.9em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #1bae94;
+	font-weight: normal;
+	padding-top: 0px;
+	padding-bottom: 10px;
+		}
+		
+.rightcol_title2 {
+	color: #000;
+	text-transform:uppercase;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: .85em;
+		}
+
+
+
+
+.caption {
+	font-size: .75em;
+	color: #8c9ca3;
+	margin-top: 10px;
+	padding-top: 5px;
+	border-top: 0;
+	border-top: 1px solid #ffffff;
+	
+}
+
+
+
+.join_promo a {
+	color:#fff;
+}
+
+
+/*end of sidenav styling */
+ 
+
+
+img.floatLeft { 
+    float: left; 
+    margin: 0px;
+	padding-bottom:5px;
+	padding-right: 5px; 
+}
+
+img.floatLeftbio { 
+    float: left; 
+    margin-right: 10px;
+	margin-left: 0px;
+	padding-bottom: 5px;
+	
+}
+
+	
+}
+img.floatRight { 
+    float: right; 
+    margin: 0px;
+	padding-bottom:5px;
+	padding-right: 10px;
+	padding-left: 10px; 
+}
+
+
+
+
+.textindent {
+	padding-left: 30px;
+}
+  
+
+
+
+
+.backtotop {
+	border-top: 1px solid #e5ebee;
+	border-bottom: 1px solid #e5ebee;
+	font-size: .80em;
+	padding: 3px 0px 1px 10px;
+	margin-right:390px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+hr {
+	border: none 0;
+	border-top:  1px solid #c7e4f1;/*the border*/
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+}
+
+
+
+.clear {
+	clear:both;
+}
+
+
+
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+
+
+
+/*footer styling*/
+
+.bws #footer { 
+	position: relative; /* adding position: relative allows you to position the two sidebars relative to this container */
+	width: 960px;
+	margin-bottom: 30px; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 20px;
+	background-image:url(../images/footer_bg2.png);
+	background-repeat:no-repeat;
+	height: 80px;
+	font-size:.75em;
+	color:#FFFFFF;
+	line-height: 1.2em;
+	font-family:Arial, Helvetica, sans-serif;
+} 
+.footer_left {
+position:absolute;
+left: 20px;
+width: 300px;
+
+}
+.footer_middle {
+	position:absolute;
+	left: 340px;
+	width: 280px;
+	top: 11px;
+}
+
+.footer_right{
+	position:absolute;
+	left: 660px;
+	width: 280px;
+	top: 11px;
+}
+
+.bws #footer a {
+color:#FFFFFF;
+}
+
+.footer_right a:hover{ 
+	font-weight: light;
+	text-decoration: none; 
+	color: #ffaa17;
+	}
+

@@ -1,0 +1,1 @@
+<p id="subnav_items"><?=anchor('bws/bw_info/long_range_movements', 'Long Range Movements');?>  |  <?=anchor('bws/bw_info/feeding', 'Foraging & Feeding');?>  |  <?=anchor('bws/bw_info/habitat', 'Habitat');?></p>
